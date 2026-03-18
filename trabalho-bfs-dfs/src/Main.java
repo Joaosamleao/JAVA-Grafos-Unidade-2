@@ -18,8 +18,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-
-        // Ler o arquivo
+     
         In in = new In("Dados/nordeste.txt");
         Graph graph = new Graph(in);
         Scanner sc = new Scanner(System.in);
